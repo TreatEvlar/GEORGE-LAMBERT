@@ -38,7 +38,7 @@ function App() {
 
         <div
           className={`nav-links flex md:flex-row items-center space-x-6 fixed md:static bg-gray-800 md:bg-transparent w-full md:w-auto h-screen md:h-auto left-0 ${
-            isOpen ? "top-10" : "bottom-203"
+            isOpen ? "top-0" : "bottom-203"
           } pt-46 md:pt-0 flex-col space-y-6 md:space-y-0 transition-all duration-300`}
         >
           <a href="#" className="hover:text-blue-300 transition-colors">
